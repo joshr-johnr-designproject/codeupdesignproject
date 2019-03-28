@@ -52,13 +52,11 @@
         font-family: 'Anton', sans-serif;
         padding-top: 30px;
     }
-    #circle1 {
-        text-align: center;
+    .circle {
         color: white;
         background-color: red;
         border-radius: 50px;
         border: 10px solid white;
-        width: 100px;
-        height: 100px;
+        width: 100%;
     }
 }
