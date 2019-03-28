@@ -1,21 +1,64 @@
-* {
-    font-family: 'Anton', sans-serif;
-}
-h1 {
-    font-size: 64px;
-}
-h2 {
-    font-size: 48px;
-}
-h3 {
-    font-size: 40px;
-}
-h4 {
-    font-size: 32px;
-}
-h5 {
-    font-size: 28px;
-}
-.codeup {
-    font
+@media screen and (max-width: 575px) {
+
+    body {
+        background-color: #E6E6E6;
+    }
+    h1 {
+        font-size: 64px;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    .codeup {
+        font-family: 'Abel', sans-serif;
+    }
+    .container {
+        width: 70%;
+        padding-top: 30px;
+    }
+    .visual {
+        font-size: 60px;
+        padding-top: 50px;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+        display: inline-flex;
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+    li {
+        padding-right: 20px;
+        padding-left: 18px;
+    }
+    .utah {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        padding-top: 30px;
+    }
+    #circle1 {
+        text-align: center;
+        color: white;
+        background-color: red;
+        border-radius: 50px;
+        border: 10px solid white;
+        width: 100px;
+        height: 100px;
+    }
 }
