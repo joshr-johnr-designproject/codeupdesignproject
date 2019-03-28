@@ -171,9 +171,44 @@
     #logo {
         width: 150px;
         height: 150px;
-        position: absolute;
-        bottom: 140px;
-        left: 148px;
+
+        position: center;
+        /*position: absolute;*/
+        /*bottom: 200px;*/
+        /*left: 148px;*/
         z-index: 1;
+    }
+
+    .small-dots{
+        float: right;
+    }
+    .dotbottom1 {
+        height: 25px;
+        width: 25px;
+        background-color: #E6563B;
+        border-radius: 50%;
+        display: inline-block;
+
+    }
+    .dotbottom2 {
+        height: 25px;
+        width: 25px;
+        background-color: #EB9D3A;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .dotbottom3 {
+        height: 25px;
+        width: 25px;
+        background-color: #7CB06C;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .dotbottom4 {
+        height: 25px;
+        width: 25px;
+        background-color: #00ABA9;
+        border-radius: 50%;
+        display: inline-block;
     }
 }
