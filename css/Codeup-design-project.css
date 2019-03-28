@@ -52,16 +52,9 @@
         font-family: 'Anton', sans-serif;
         padding-top: 30px;
     }
-<<<<<<< HEAD
-    .circle {
-=======
-
-
-
     .circle {
         background: #E6563B;
         border-radius: 150px;
->>>>>>> 739b44c1ec74e0281bfc5a4d9edf9298fb1af26f
         color: white;
         height: 150px;
         font-weight: bold;
@@ -69,10 +62,7 @@
         display: table;
         margin: 1px auto;
         border: 10px solid white;
-<<<<<<< HEAD
         width: 100%;
-=======
->>>>>>> 739b44c1ec74e0281bfc5a4d9edf9298fb1af26f
     }
     .circle2 {
          background: #EB9D3A;
@@ -121,7 +111,5 @@
     /*    width: 100px;*/
     /*    height: 100px;*/
     /*}*/
-
-
 
 }
