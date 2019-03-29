@@ -149,8 +149,9 @@
     .jumbotron {
         height: 80px;
         background-color: white;
-        margin-bottom: 50px;
-        margin-top: 68px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+        padding-top: 80px;
 
 
     }
@@ -162,12 +163,9 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        bottom: 105px;
-
+        bottom: 130px;
 
     }
-
-
 
     .small-dots {
         position: relative;
@@ -224,7 +222,25 @@
         margin-left: -50px;
 
     }
-
+    .small-pic {
+        width: 200px;
+        height: 150px;
+        display: inline-flex;
+    }
+    .col-space {
+        margin: 10px;
+        display: inline-flex;
+    }
+    .jumbotron {
+        height: 80px;
+        background-color: white;
+        margin-bottom: 50px;
+        margin-top: 68px;
+        padding-top: 10px;
+    }
+    #logo {
+        bottom: 60px;
+    }
 
 
 
