@@ -172,6 +172,7 @@
     }
     .col-3 {
         padding: 3px;
+
     }
 
     .apple-ipad {
@@ -238,7 +239,7 @@
         padding-top: 10px;
     }
     .b-images{
-        width: 200px;
+        width: 250px;
         border: 5px solid lightgrey;
     }
     #logo {
@@ -258,5 +259,12 @@
         padding-right: 70px;
 
     }
-
+    .col-featured {
+        position: relative;
+        right: -32px;
+    }
+    .small-dots {
+        left: 36px;
+        width: 100px;
+    }
 }
