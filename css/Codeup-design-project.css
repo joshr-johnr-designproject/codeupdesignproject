@@ -1,4 +1,38 @@
-@media screen and (max-width: 575px) {
+.dotbottom1 {
+    height: 25px;
+    width: 25px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-block;
+
+
+}
+
+.dotbottom2 {
+    height: 25px;
+    width: 25px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotbottom3 {
+    height: 25px;
+    width: 25px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotbottom4 {
+    height: 25px;
+    width: 25px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
 
     body {
         background-color: #E6E6E6;
@@ -133,39 +167,7 @@
 
     }
 
-    .dotbottom1 {
-        height: 25px;
-        width: 25px;
-        background-color: #E6563B;
-        border-radius: 50%;
-        display: inline-block;
 
-
-    }
-
-    .dotbottom2 {
-        height: 25px;
-        width: 25px;
-        background-color: #EB9D3A;
-        border-radius: 50%;
-        display: inline-block;
-    }
-
-    .dotbottom3 {
-        height: 25px;
-        width: 25px;
-        background-color: #7CB06C;
-        border-radius: 50%;
-        display: inline-block;
-    }
-
-    .dotbottom4 {
-        height: 25px;
-        width: 25px;
-        background-color: #00ABA9;
-        border-radius: 50%;
-        display: inline-block;
-    }
 
     .small-dots {
         position: relative;
@@ -202,4 +204,28 @@
         margin-left: 53px;
         margin-right: 45px;
     }
+@media screen and (max-width: 575px) {
+}
+@media screen and (min-width: 576px){
+
+#logo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 105px;
+
+    }
+    .visual {
+        font-size: 40px;
+        display: inline-flex;
+        margin-left: -50px;
+
+    }
+
+
+
+
 }
