@@ -1,186 +1,129 @@
-@media screen and (max-width: 575px) {
 
-    body {
-        background-color: #E6E6E6;
-    }
-    h1 {
-        font-size: 64px;
-        font-family: 'Anton', sans-serif;
-        text-align: center;
-    }
 
-    h2 {
-        font-size: 48px;
-    }
+        @media screen and (max-width: 575px) {
 
-    h3 {
-        font-size: 40px;
-    }
+        body {
+            background-color: #E6E6E6;
+        }
+        h1 {
+            font-size: 64px;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+        }
 
-    h4 {
-        font-size: 32px;
-    }
+        h2 {
+            font-size: 48px;
+        }
 
-    h5 {
-        font-size: 28px;
-    }
+        h3 {
+            font-size: 40px;
+        }
 
-    .codeup {
-        font-family: 'Abel', sans-serif;
-    }
-    .container {
-        width: 70%;
-        padding-top: 30px;
-    }
-    .visual {
-        font-size: 60px;
-        padding-top: 50px;
-    }
-    ul {
-        list-style: none;
-        text-align: center;
-        display: inline-flex;
-        margin-left: -20px;
-        margin-top: 30px;
-    }
-    li {
-        padding-right: 20px;
-        padding-left: 18px;
-    }
-    .utah {
-        text-align: center;
-        font-family: 'Anton', sans-serif;
-        padding-top: 30px;
-    }
-    .circle {
-        background: #E6563B;
-        border-radius: 150px;
-        color: white;
-        height: 150px;
-        font-weight: bold;
-        width: 150px;
-        display: table;
-        border: 10px solid white;
-    }
-    .circle2 {
-         background: #EB9D3A;
-         border-radius: 150px;
-         color: white;
-         height: 150px;
-         font-weight: bold;
-         width: 150px;
-         display: table;
-         margin: 0 auto;
-         border: 10px solid white;
-     }
-    .circle3 {
-        background: #7CB06C;
-        border-radius: 150px;
-        color: white;
-        height: 150px;
-        font-weight: bold;
-        width: 150px;
-        display: table;
-        border: 10px solid white;
-    }
-    .circle4 {
-        background: #00ABA9;
-        border-radius: 150px;
-        color: white;
-        height: 150px;
-        font-weight: bold;
-        width: 150px;
-        display: table;
-        border: 10px solid white;
-    }
-    .circle p {
-        vertical-align: middle;
-        display: table-cell;
-        text-align: center;
-    }
-    .selectedwork {
-        text-align: center;
-        font-family: 'Abel', sans-serif;
-        padding-top: 100px;
-        padding-bottom: 40px;
-    }
-    #apple-ipad {
-        width: 140%;
-        height: 80%;
-        border: 10px solid lightgray;
-        opacity: 0.5%;
-        border-radius: 10px;
-        position: relative;
-        left: -60px;
-    }
-    .featured-pro {
-        font-family: 'Abel', sans-serif;
-        font-size: 20px;
-        position: relative;
-        left: -60px;
-    }
+        h4 {
+            font-size: 32px;
+        }
 
-    .dot {
-        border-radius: 50%;
-        display: inline-block;
-        width:160px;
-        height:160px;
-        border:10px solid white;
-        background-color: #E6563B;
-    }
-    .dot2 {
-        border-radius: 50%;
-        display: inline-block;
-        width:160px;
-        height:160px;
-        border:10px solid white;
-        background-color: #EB9D3A;
-    }
-    .dot3 {
-        border-radius: 50%;
-        display: inline-block;
-        width:160px;
-        height:160px;
-        border:10px solid white;
-        background-color: #7CB06C;
-    }
-    .dot4 {
-        border-radius: 50%;
-        display: inline-block;
-        width:160px;
-        height:160px;
-        border:10px solid white;
-        background-color: #00ABA9;
-    }
-    .dot .c-text{
-        position:relative;
-        font-size: 20px;
-        font-weight: bolder;
-        top:calc(100%/2 - 12px);
-        color: white;
-    }
-    .col-6 {
-        padding-left: 0px;
-    }
-    .jumbotron {
-        height: 80px;
-        background-color: white;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-    #logo {
-        width: 150px;
-        height: 150px;
+        h5 {
+            font-size: 28px;
+        }
+        .container-fluid{
 
-        position: center;
-        /*position: absolute;*/
-        /*bottom: 200px;*/
-        /*left: 148px;*/
-        z-index: 1;
-    }
+        }
+        .codeup {
+            font-family: 'Abel', sans-serif;
+        }
+        .container {
+            width: 70%;
+            padding-top: 30px;
+        }
+        .visual {
+            font-size: 60px;
 
-    .small-dots{
-        float: right;
+        }
+
+        .utah {
+            text-align: center;
+            font-family: 'Anton', sans-serif;
+            padding-top: 30px;
+        }
+
+        .selectedwork {
+            text-align: center;
+            font-family: 'Abel', sans-serif;
+            padding-top: 100px;
+            padding-bottom: 40px;
+        }
+        #apple-ipad {
+
+
+        }
+        .featured-pro {
+            font-family: 'Abel', sans-serif;
+            font-size: 20px;
+            position: relative;
+            left: -60px;
+        }
+
+        .dot {
+            border-radius: 50%;
+            display: inline-block;
+            width:160px;
+            height:160px;
+            border:10px solid white;
+            background-color: #E6563B;
+        }
+        .dot2 {
+            border-radius: 50%;
+            display: inline-block;
+            width:160px;
+            height:160px;
+            border:10px solid white;
+            background-color: #EB9D3A;
+        }
+        .dot3 {
+            border-radius: 50%;
+            display: inline-block;
+            width:160px;
+            height:160px;
+            border:10px solid white;
+            background-color: #7CB06C;
+        }
+        .dot4 {
+            border-radius: 50%;
+            display: inline-block;
+            width:160px;
+            height:160px;
+            border:10px solid white;
+            background-color: #00ABA9;
+        }
+        .dot .c-text{
+            position:relative;
+            font-size: 20px;
+            font-weight: bolder;
+            top:calc(100%/2 - 12px);
+            color: white;
+        }
+        .col-6 {
+            padding-left: 0px;
+        }
+        .jumbotron {
+            height: 80px;
+            background-color: white;
+            margin-bottom: 50px;
+            margin-top: 25px;
+
+        }
+        #logo {
+            width: 200px;
+            height: 200px;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+
+
+
+        }
+
     }
     .dotbottom1 {
         height: 25px;
@@ -188,6 +131,7 @@
         background-color: #E6563B;
         border-radius: 50%;
         display: inline-block;
+
 
     }
     .dotbottom2 {
