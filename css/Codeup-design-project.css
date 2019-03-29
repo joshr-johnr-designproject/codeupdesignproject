@@ -164,7 +164,6 @@
         margin-right: auto;
         position: relative;
         bottom: 130px;
-
     }
 
     .small-dots {
@@ -238,10 +237,26 @@
         margin-top: 68px;
         padding-top: 10px;
     }
-    #logo {
-        bottom: 60px;
+    .b-images{
+        width: 200px;
+        border: 5px solid lightgrey;
     }
+    #logo {
+        bottom: 122px;
 
+    }
+    #nav-left {
+        float: left;
+        padding-left: 0px;
+    }
+    #nav-right {
+        float: right;
+        left: 0px;
+    }
+    .container-2 {
+        padding-left: 75px;
+        padding-right: 70px;
 
+    }
 
 }
