@@ -1,13 +1,16 @@
+
+/*Almost 500 lines of custom CSS because I couldn't get the Bootstrap commands to work "Now at least it kinda works" -Josh ¯\_(ツ)_/¯ */
+
 .dotbottom1 {
     height: 25px;
     width: 25px;
     background-color: #E6563B;
     border-radius: 50%;
     display: inline-block;
-
-
 }
-
+.photo-display {
+    display: none;
+}
 .dotbottom2 {
     height: 25px;
     width: 25px;
@@ -15,7 +18,6 @@
     border-radius: 50%;
     display: inline-block;
 }
-
 .dotbottom3 {
     height: 25px;
     width: 25px;
@@ -23,7 +25,6 @@
     border-radius: 50%;
     display: inline-block;
 }
-
 .dotbottom4 {
     height: 25px;
     width: 25px;
@@ -31,9 +32,6 @@
     border-radius: 50%;
     display: inline-block;
 }
-
-
-
     body {
         background-color: #E6E6E6;
     }
@@ -163,7 +161,7 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        bottom: 130px;
+        bottom: 160px;
     }
 
     .small-dots {
@@ -177,7 +175,7 @@
 
     .apple-ipad {
         position: relative;
-        left: 42px;
+        left: -20px;
         width: 80%;
         height: 80%;
         border: 10px solid lightgrey;
@@ -202,6 +200,20 @@
         margin-left: 53px;
         margin-right: 45px;
     }
+.invisible1 {
+    visibility: hidden;
+}
+.xs {
+    position: relative;
+    top: -905px;
+}
+.xs-dots {
+    position: relative;
+    top: -905px;
+}
+.md-invisible {
+    visibility: hidden;
+}
 @media screen and (max-width: 575px) {
 }
 @media screen and (min-width: 576px){
@@ -219,7 +231,9 @@
     .visual {
         font-size: 40px;
         display: inline-flex;
-        margin-left: -50px;
+        margin-left: 64px;
+        position: relative;
+        right: 25px;
 
     }
     .small-pic {
@@ -239,7 +253,7 @@
         padding-top: 10px;
     }
     .b-images{
-        width: 250px;
+        width: 280px;
         border: 5px solid lightgrey;
     }
     #logo {
@@ -249,10 +263,13 @@
     #nav-left {
         float: left;
         padding-left: 0px;
+        margin-left: 30px;
+
     }
     #nav-right {
         float: right;
         left: 0px;
+        margin-right: 40px;
     }
     .container-2 {
         padding-left: 75px;
@@ -266,5 +283,168 @@
     .small-dots {
         left: 36px;
         width: 100px;
+    }
+    #macbook {
+        position: relative;
+        right: -309px;
+        top: -219px;
+    }
+    #mac-text {
+        position: relative;
+        top: -217px;
+        right: -330px;
+    }
+    #mac-dots {
+        position: relative;
+        top: -219px;
+        left: 50px;
+    }
+    #codeup-design {
+        position: relative;
+        right: -8px;
+
+    }
+    #man {
+        position: relative;
+        top: -190px;
+
+    }
+    #man-text {
+        position: relative;
+        bottom: 187px;
+        left: 18px;
+    }
+    #man-dots {
+        position: relative;
+        bottom: 187px;
+        left: -264px;
+    }
+    #security {
+        position: relative;
+        top: -421px;
+        right: -309px;
+        width: 281px;
+        height: 202px;
+    }
+    #security-text {
+        position: relative;
+        top: -419px;
+        right: -330px;
+    }
+    #security-dots {
+        position: relative;
+        left: 50px;
+        top: -419px;
+    }
+    hr {
+        border: 1.5px solid lightgray;
+        width: 85%;
+    }
+    .invisible1 {
+        visibility: visible;
+    }
+}
+@media screen and (min-width: 690px) and (max-width: 990px) {
+    .invisible2 {
+        visibility: hidden;
+    }
+    #logo {
+        bottom: 50px;
+        right: 250px;
+    }
+    #codeup-design {
+        position: relative;
+        top: -137px;
+        right: 215px;
+    }
+    ul {
+        position: relative;
+        top: -192px;
+        left: 355px;
+    }
+    .visual {
+        position: relative;
+        top: -115px;
+        right: -25px;
+    }
+    .utah {
+        right: -70px;
+        padding-top: 18px;
+    }
+    .dots-md {
+        position: relative;
+        right: -72px;
+        top: -68px;
+    }
+    hr {
+        border: 1.5px solid lightgray;
+        width: 95%;
+    }
+    .sw-md {
+        width: 50%;
+        font-size: small;
+        position: relative;
+        bottom: -37px;
+        right: 145px;
+    }
+    .small-dots {
+        left: -30px;
+        position: relative;
+    }
+    #mac-dots {
+        left: -144px;
+        position: relative;
+    }
+    #man-dots {
+        position: relative;
+        left: -454px;
+    }
+    #security-dots {
+        left: -141px;
+        position: relative;
+
+    }
+    .md-invisible {
+        visibility: visible;
+    }
+    .last {
+        width: 50%;
+        font-size: small;
+        font-family: 'Abel', sans-serif;
+        position: relative;
+        left: 700px;
+        top: -5px;
+    }
+    .photo-display {
+        display: block;
+    }
+    .mobile-phone {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        right: -190px;
+        bottom: -72px;
+    }
+    .sm-photo-text {
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .admin {
+        position: relative;
+        bottom: -70px;
+        right: -205px;
+    }
+    .absolute {
+        position: relative;
+        top: 98px;
+        right: -63px;
+    }
+    .head {
+        width: 70px;
+       height: 70px;
+        position: relative;
+        bottom: -158px;
+        left: -179px;
     }
 }
